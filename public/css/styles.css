@@ -70,7 +70,7 @@ form.item {
 button {
   min-height: 50px;
   width: 50px;
-  border-radius: 50%;
+  border-radius: 5px;
   border-color: transparent ;
   background-color: transparent;
   color: black;
@@ -80,7 +80,8 @@ button {
 }
 
 button:hover{
-  background-color: #5d00ff;
+  border: #00204a 1px solid;
+  background-color: transparent;
   cursor: pointer;
 }
 
